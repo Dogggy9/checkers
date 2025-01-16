@@ -1,3 +1,7 @@
+package component;
+
+import model.GameTable;
+
 import java.util.Random;
 
 public class Game {

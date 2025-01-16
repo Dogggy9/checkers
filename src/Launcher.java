@@ -1,3 +1,5 @@
+import component.*;
+
 public class Launcher {
     public static void main(String[] args) {
         final Game game = new Game(new DataPrinter(),
