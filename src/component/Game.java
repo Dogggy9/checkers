@@ -6,11 +6,11 @@ import java.util.Random;
 
 public class Game {
 
-    private DataPrinter dataPrinter;
-    private ComputerMove computerMove;
-    private UserMove userMove;
-    private DrawVerifier drawVerifier;
-    private WinnerVerifier winnerVerifier;
+    private final DataPrinter dataPrinter;
+    private final ComputerMove computerMove;
+    private final UserMove userMove;
+    private final DrawVerifier drawVerifier;
+    private final WinnerVerifier winnerVerifier;
 
     public Game(DataPrinter dataPrinter,
                 ComputerMove computerMove,
