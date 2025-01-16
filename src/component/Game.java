@@ -26,7 +26,7 @@ public class Game {
 
     public void play() {
         System.out.println("тру ля ля");
-        dataPrinter.printMappingTable();
+        //dataPrinter.printMappingTable();
 
         final GameTable gameTable = new GameTable();
 
